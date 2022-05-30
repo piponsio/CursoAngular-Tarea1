@@ -1,0 +1,9 @@
+td{
+    text-align: left;
+    border: double;
+}
+
+th{
+    border: double;
+    text-align: left;
+}

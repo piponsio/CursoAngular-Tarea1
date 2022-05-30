@@ -1,0 +1,13 @@
+<h2>Lista de paises</h2>
+<table>
+    <thead>
+        <th>Pais</th>
+        <th>Capital</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let pais of listaPaises">
+            <td>{{pais.nombre}}</td>
+            <td>{{pais.capital}}</td>
+        </tr>
+    </tbody>
+</table>
